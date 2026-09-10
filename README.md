@@ -106,11 +106,3 @@ leclens/
 ├── requirements.txt
 └── lecture_notes.md        # generated — your running notes file
 ```
-
-## Suggested next steps once this is working
-
-- Add a small "processing..." toast overlay instead of relying only on the
-  tray notification (some tray implementations are easy to miss).
-- Batch multiple captures into a single end-of-lecture summary pass.
-- Swap LLaVA for a newer local VLM (e.g. `moondream` for speed, or
-  `llama3.2-vision` via Ollama) if you want to compare quality/speed.
